@@ -1,5 +1,6 @@
 .container{
     margin-bottom: 100px;
+
 }
 .lightpink-bg{
     background-color: #fceae8;
@@ -10,11 +11,11 @@
 }
 
 .price{
-    color: #ff136f;    
+    color: darkblue;    
 }
 
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    background-image: linear-gradient(to bottom, gray 0%, black 100%);
     color: #FFF;
     border: none;
     border-radius: 8px;
@@ -22,30 +23,19 @@
     cursor: pointer;    
 }
 
-.watch{
-    background-color: orange;
+.smartphone{
+    background-color: lightgrey
 }
 
-.bag{
-    background-color: orchid;
+.laptop{
+    background-color: lightgoldenrodyellow
 }
 
-.shoes{
-    background-color: lightblue;
-}
-
-.watch, .bag, .shoes{
+.laptop, .smartphone{
     padding: 10px 30px;
     border-radius: 10px;
 }
 
-.categories h1{
-    color: white;
-}
-
-.categories img{
-    width: 100px;
-}
 
 .card{
     border: none;
@@ -63,6 +53,40 @@
     height: 200px;
 }
 
-#subscribe h6{
+#contactus h6{
     color:gray
+}
+
+
+.category-title h2{
+    width: 160px;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 6px;
+    border-image: linear-gradient(to right,#FF9C35  0% ,  #FFD019 100%);
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+span.cate{
+    border: 1px solid orange;
+    width: 9%;
+    height: 7px;
+    border-radius: 15 px;
+    display: inline-block;
+    background-color: orange;
+}
+.cate-bg{
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px;
+    border-radius: 0 25px;
+}
+.cate-go{
+   margin: 25px 0;
+}
+.order img{
+    width: 100%;
 }
